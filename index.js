@@ -24,5 +24,14 @@ function isDivisibleby4and8(x:number):boolean {
 console.log(isDivisibleby4and8(5));
 console.log(isDivisibleby4and8(16));
 */
-var bigNumber = 9007199254740992n;
+/*
+let bigNumber:bigint = 9007199254740992n;
 console.log(bigNumber);
+*/
+var message = "Hello, TypeScript!";
+console.log(typeof message);
+var product;
+function calculateArea(length, width) {
+    return product = length * width;
+}
+console.log(typeof product);
