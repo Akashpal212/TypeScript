@@ -28,10 +28,47 @@ console.log(isDivisibleby4and8(16));
 let bigNumber:bigint = 9007199254740992n;
 console.log(bigNumber);
 */
-var message = "Hello, TypeScript!";
+/*
+let message = "Hello, TypeScript!";
 console.log(typeof message);
-var product;
-function calculateArea(length, width) {
+
+let product;
+function calculateArea(length:number, width:number) {
     return product = length * width;
 }
 console.log(typeof product);
+*/
+//const fruits: string[] = ["apple", "banana", "orange", "mango"];
+//const newUpdatedFruits = fruits.push("kiwi");
+//console.log(newUpdatedFruits);
+//console.log(fruits);
+//const lastData = fruits.pop();
+//console.log(lastData);
+//console.log(fruits);
+//for (let i = 0; i < fruits.length; i++) console.log(fruits[i]);
+//for (const fruit of fruits) console.log(fruit);
+//fruits.forEach((val) => console.log(val));
+var numbers = [1, 2, 3, 4, 5];
+/*
+const doubleData: number[] = numbers.map((val) => val * 2);
+console.log(doubleData);
+const nts: string[] = numbers.map((val) => val.toString());
+console.log(nts);
+
+
+const even = numbers.filter((val) => val % 2 == 0);
+console.log(even);
+const gt3 = numbers.filter((val) => val > 3);
+console.log(gt3);
+*/
+var x = 0;
+for (var i = 0; i < numbers.length; i++)
+    x += numbers[i];
+console.log(x / numbers.length);
+var m = 0;
+for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
+    var num = numbers_1[_i];
+    if (num > m)
+        m = num;
+}
+console.log(m);
